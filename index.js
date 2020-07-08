@@ -28,9 +28,9 @@ function mergeSort(unsortedArray)
   let firstHalf = unsortedArray.slice(0, middle)
   let secondHalf = unsortedArray.slice(middle, unsortedArray.length)
   
-  if(.length < 2)
+  if(unsortedArray.length < 2)
   {
-    return array
+    return unsortedArray
   }
   else
   {
