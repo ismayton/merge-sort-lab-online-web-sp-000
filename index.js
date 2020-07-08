@@ -3,6 +3,7 @@ function findMinAndRemoveSorted(array)
   return array.shift()
 }
 
+
 function merge(firstArray, secondArray)
 {
   let sortedArray = [];
@@ -21,6 +22,7 @@ function merge(firstArray, secondArray)
   }
   return sortedArray.concat(firstArray).concat(secondArray);
 }
+
 
 function mergeSort(array)
 {
