@@ -25,8 +25,9 @@ function merge(firstArray, secondArray)
 function mergeSort(array)
 {
   let middle = (array.length) / 2
+  let length = array.length
   let firstHalf = array.slice(0, middle)
-  let secondHalf = array.slice(middle, array.length)
+  let secondHalf = array.slice(middle, length)
   
   if(array.length < 2)
   {
