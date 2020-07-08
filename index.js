@@ -22,13 +22,13 @@ function merge(firstArray, secondArray)
   return sortedArray.concat(firstArray).concat(secondArray);
 }
 
-function mergeSort(array)
+function mergeSort(unsortedArray)
 {
-  let middle = array.length / 2
-  let firstHalf = array.slice(0, middle)
-  let secondHalf = array.slice(middle, array.length)
+  let middle = unsortedArray.length / 2
+  let firstHalf = unsortedArray.slice(0, middle)
+  let secondHalf = unsortedArray.slice(middle, unsortedArray.length)
   
-  if(array.length < 2)
+  if(.length < 2)
   {
     return array
   }
