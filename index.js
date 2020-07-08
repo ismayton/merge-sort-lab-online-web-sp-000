@@ -21,3 +21,8 @@ function merge(firstArray, secondArray)
   }
   return sortedArray.concat(firstArray).concat(secondArray);
 }
+
+function mergeSort(array)
+{
+  let middle = array.length / 2
+}
