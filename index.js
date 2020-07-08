@@ -1,6 +1,6 @@
 function findMinAndRemoveSorted(array)
 {
-  return array.splice(0, 1)
+  return array.shift()
 }
 
 function merge(firstArray, secondArray)
