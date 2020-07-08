@@ -36,5 +36,4 @@ function mergeSort(array)
   {
     merge(mergeSort(firstHalf), mergeSort(secondHalf));
   }
-  return array;
 }
