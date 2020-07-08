@@ -28,4 +28,12 @@ function mergeSort(array)
   let firstHalf = array.slice(0, middle)
   let secondHalf = array.slice(middle, array.length)
   
+  if(array.length < 2)
+  {
+    return array
+  }
+  else
+  {
+    return 
+  }
 }
